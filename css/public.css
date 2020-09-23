@@ -1,0 +1,20 @@
+html{font-size:20px}
+@media only screen and (max-width:320px){
+    html{font-size:28px !important}
+}
+@media only screen and (min-width:320px){
+    html{font-size:32px !important}
+}
+@media only screen and (min-width:375px){
+    html{font-size:37.5px !important}
+}
+@media only screen and (min-width:400px){
+    html{font-size:40px !important}
+}
+@media only screen and (min-width:414px){
+    html{font-size:41.4px !important}
+}
+@media only screen and (min-width:540px){
+    html{font-size: 54px !important}
+}
+html{font-family:"Helvetica Neue","sans-serif","SimHei",\5FAE\8F6F\96C5\9ED1,tohoma;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}li{list-style-type:none;} 

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>教育直播/直播课堂/在线教学直播平台-96刻直播云</title>
+        <meta name="keywords" content="教育直播，直播课堂，直播教室，企业直播，直播平台，直播系统软件，直播云，视频直播，直播开发，微信直播，双师课堂，空中课堂，视频会议">
+        <meta name="description" content="【96刻直播云-视频云服务整体解决方案提供商】涵盖教育直播/企业直播/微信直播/大会直播/双师课堂/视频会议等,致力于打造出更高效稳定安全的产品">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <!-- 让IE浏览器用最高级内核渲染页面 还有用 Chrome 框架的页面用webkit 内核 ================================================== -->
+        <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+        <!-- IOS6全屏 Chrome高版本全屏 ================================================== -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <!-- 让360双核浏览器用webkit内核渲染页面 ================================================== -->
+        <meta name="renderer" content="webkit">
+        <!-- Mobile Specific Metas ================================================== -->
+        <!-- !!!注意 minimal-ui 是IOS7.1的新属性，最小化浏览器UI -->
+        <meta name="format-detection" content="telephone=no,email=no,date=no,aItemress=no">
+        <!-- CSS
+        ================================================== -->
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/index.css">
+        <!-- Favicons
+        ================================================== -->
+        <link rel="shortcut icon" href="favicon.ico">
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/flexible.debug.js"></script>
+    </head>
+    <body>
+        <section>
+            <div class="sec-fir">
+                <img class="fir-pic" src="./img/fir-pic.png" alt="">
+                <h2 class="fir-h2 flex-box">转型线上教育</h2>
+                <p class="fir-p">搭建专属自己的直播课堂</p>
+                <div onclick="openPopup()" class="fir-btn flex-box">免费领取试用账户</div>
+            </div>
+            <div class="sec-sed">
+                <img class="sed-tit-img" src="./img/sed-tit-pic.png" alt="">
+                <div class="sed-sec">
+                    <ul>
+                        <li><i></i>分支机构多地化、人员分散，线下培训成本高</li>
+                        <li><i></i>课堂教学方式单一、互动差，教学体验有待优化</li>
+                        <li><i></i>原创教学视频被录制、盗链、盗卖，急需版权保护</li>
+                        <li><i></i>招生转化难，获客成本高，转化周期长</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sec-thr">
+                <img class="thr-tit-img" src="./img/thr-tit-pic.png" alt="">
+                <div class="thr-sec">
+                    <div class="thr-sec-tit">您在做什么类型的培训？</div>
+                    <div class="thr-edu-type">
+                        <span>幼儿早教</span>
+                        <span>语言培训</span>
+                        <span>职业培训</span>
+                        <span>K12教育</span>
+                        <span>STEAM教育</span>
+                        <span>企业内训</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-form">
+                <input class="form-name formName" type="text" placeholder="您的称呼" oninput="namePopupOnclick(value)">
+                <input class="form-tel formTel" type="text" placeholder="您的手机号" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))">
+                <div onclick="formBtn(1)" class="form-btn flex-box">免费领取方案和试用账号</div>
+            </div>
+            <div class="sec-four">
+                <img class="four-tit-img" src="./img/four-tit-pic.png" alt="">
+                <div class="four-sec">
+                    <ul>
+                        <li><i></i>1V1辅导</li>
+                        <li><i></i>万人直播课</li>
+                        <li><i></i>1V16小班课</li>
+                        <li><i></i>双师课堂</li>
+                        <li><i></i>1V500大班课</li>
+                        <li><i></i>空中课堂</li>
+                    </ul>
+                </div>
+                <img src="./img/four-btm-pic.png" alt="" class="four-btm-img">
+            </div>
+            <div class="sec-fif">
+                <img class="fif-tit-img" src="./img/fif-tit-pic.png" alt="">
+                <ul class="fif-sec">
+                    <li><div class="img-box flex-box"><img src="./img/menu-icon/menu-icon1.png" alt=""> </div><span>视频连麦</span></li>
+                    <li><div class="img-box flex-box"><img src="./img/menu-icon/menu-icon2.png" alt=""> </div><span>桌面共享</span></li>
+                    <li><div class="img-box flex-box"><img src="./img/menu-icon/menu-icon3.png" alt=""> </div><span>文档白板</span></li>
+                    <li><div class="img-box flex-box"><img src="./img/menu-icon/menu-icon4.png" alt=""> </div><span>旁听监课</span></li>
+                    <li><div class="img-box flex-box"><img src="./img/menu-icon/menu-icon5.png" alt=""> </div><span>点名/签到</span></li>
+                    <li><div class="img-box flex-box"><img src="./img/menu-icon/menu-icon6.png" alt=""> </div><span>举手发言</span></li>
+                    <li><div class="img-box flex-box"><img src="./img/menu-icon/menu-icon7.png" alt=""> </div><span>直播弹题</span></li>
+                    <li><div class="img-box flex-box"><img src="./img/menu-icon/menu-icon8.png" alt=""> </div><span>音视频直播</span></li>
+                    <li><div class="img-box flex-box"><img src="./img/menu-icon/menu-icon9.png" alt=""> </div><span>红包打赏</span></li>
+                    <li><div class="img-box flex-box"><img src="./img/menu-icon/menu-icon10.png" alt=""></div><span>聊天互动</span></li>
+                    <li><div class="img-box flex-box"><img src="./img/menu-icon/menu-icon11.png" alt=""></div><span>投票问卷</span></li>
+                    <li><div class="img-box flex-box"><img src="./img/menu-icon/menu-icon12.png" alt=""></div><span>录制回放</span></li>
+                </ul>
+            </div>
+            <div class="sec-six">
+                <img class="six-tit-img" src="./img/six-tit-pic.png" alt="">
+                <ul class="six-sec">
+                    <li>
+                        <p>多种直播形式，满足各种场景</p>
+                        <div class="type-box">
+                            <span>语音直播</span><span>PPT直播</span><span>微信直播</span>
+                            <span>图文直播</span><span>桌面共享直播</span>
+                        </div>
+                    </li>
+                    <li>
+                        <p>丰富直播工具，活跃直播氛围</p>
+                        <div class="type-box">
+                            <span>签到打卡</span><span>红包抽奖</span><span>弹幕打赏</span>
+                            <span>投票问卷</span><span>图文互动</span><span>二维码关注</span>
+                        </div>
+                    </li>
+                    <li>
+                        <p>权限观看，限定直播观看人群</p>
+                        <div class="type-box">
+                            <span>登记观看</span><span>密码观看</span><span>付费观看</span>
+                            <span>会员观看</span><span>白名单观看</span>
+                        </div>
+                    </li>
+                    <li>
+                        <p>个性化装修，打造专属直播间</p>
+                        <div class="type-box">
+                            <span>微信分享</span><span>开播提醒</span><span>修改播放器</span>
+                            <span>自定义皮肤</span><span>直播图文简介</span>
+                        </div>
+                    </li>
+                    <li>
+                        <p>视频加密+监播，保障直播安全</p>
+                        <div class="type-box">
+                            <span>聊天审核</span><span>直播监播</span><span>内容加密</span>
+                            <span>延时直播</span><span>直播防盗屏</span><span>直播防盗屏</span>
+                        </div>
+                    </li>
+                    <li>
+                        <p>特色直播功能，满足个性需求</p>
+                        <div class="type-box">
+                            <span>录制回放</span><span>数据统计</span><span>客户端定制</span>
+                            <span>网页/APP嵌入</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="sec-sev">
+                <img class="sev-tit-img" src="./img/sev-tit-pic.png" alt="">
+                <ul class='sev-label'>
+                    <li class="flex-box">客户端</li>
+                    <li class="flex-box">微信</li>
+                    <li class="flex-box">APP</li>
+                    <li class="flex-box">小程序</li>
+                </ul>
+                <img class="sev-img" src="./img/sev-img.png" alt="">
+            </div>
+            <div class="egh-sec">
+                <img class="egh-img" src="./img/egh-tit-pic.png" alt="">
+                <div class="egh-sec-box">
+                    <div class="egh-sec-li">
+                        <div class="egh-li-img flex-box"><img src="./img/egh-li-img1.png" alt=""></div>
+                        <div class="egh-li-box">
+                            <div class="egh-li-tit">视频云版权保护</div>
+                            <div class="egh-li-txt">浏览器防录屏、ID<br>跑马灯、视频水印<br>等多维度视频防录</div>
+                        </div>
+                    </div>
+                    <div class="egh-sec-li">
+                        <div class="egh-li-img flex-box"><img src="./img/egh-li-img2.png" alt=""></div>
+                        <div class="egh-li-box">
+                            <div class="egh-li-tit">适配多终端直播</div>
+                            <div class="egh-li-txt">用户可通过电脑/手<br>机/平板等平台，随<br>时随地观看直播</div>
+                        </div>
+                    </div>
+                    <div class="egh-sec-li">
+                        <div class="egh-li-img flex-box"><img src="./img/egh-li-img3.png" alt=""></div>
+                        <div class="egh-li-box">
+                            <div class="egh-li-tit">直播高并发低延时</div>
+                            <div class="egh-li-txt">可支持百万人观看<br>直播延时低于200<br>ms、互动体验出色</div>
+                        </div>
+                    </div>
+                    <div class="egh-sec-li">
+                        <div class="egh-li-img flex-box"><img src="./img/egh-li-img4.png" alt=""></div>
+                        <div class="egh-li-box">
+                            <div class="egh-li-tit">CDN加速稳定流畅</div>
+                            <div class="egh-li-txt">全面覆盖CDN网络，<br>全球500+节点，覆<br>盖各运营商</div>
+                        </div>
+                    </div>
+                    <div class="egh-sec-li">
+                        <div class="egh-li-img flex-box"><img src="./img/egh-li-img5.png" alt=""></div>
+                        <div class="egh-li-box">
+                            <div class="egh-li-tit">视频播放按需定制</div>
+                            <div class="egh-li-txt">多码率、多倍速，<br>观众可根据观看需<br>求自定义</div>
+                        </div>
+                    </div>
+                    <div class="egh-sec-li">
+                        <div class="egh-li-img flex-box"><img src="./img/egh-li-img6.png" alt=""></div>
+                        <div class="egh-li-box">
+                            <div class="egh-li-tit">按需定制二次开发</div>
+                            <div class="egh-li-txt">提供丰富API&SDK，<br>嵌入APP/小程序/网<br>页中</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nine-sec">
+                <img class="nine-tit-img" src="./img/nine-tit-pic.png" alt="">
+                <ul class="menu-logo">
+                    <li><img src="./img/menu-logo/menu-logo-pic1.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic2.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic3.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic4.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic5.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic6.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic7.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic8.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic9.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic10.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic11.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic12.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic13.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic14.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic15.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic16.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic17.png" alt=""></li>
+                    <li><img src="./img/menu-logo/menu-logo-pic18.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="ten-sec">
+                <img class="ten-tit-img" src="./img/ten-tit-pic.png" alt="">
+                <p class="ten-tel">致电：400-668-7896</p>
+                <ul class="ten-box">
+                    <li>
+                        <img src="./img/select-ten-icon.png" alt="">线上直播授课，降低租金成本
+                    </li>
+                    <li>
+                        <img src="./img/select-ten-icon.png" alt="">招生引流，转化复购更简单
+                    </li>
+                    <li>
+                        <img src="./img/select-ten-icon.png" alt="">视频加密+监播，保障直播安全
+                    </li>
+                    <li>
+                        <img src="./img/select-ten-icon.png" alt="">稳定易用，直播体验更出色
+                    </li>
+                </ul>
+            </div>
+            <div class="sec-form">
+                <img class="form-tit-img" src="./img/form-tit-pic.png" alt="">
+                <input class="form-name formName" type="text" placeholder="您的称呼" oninput="namePopupOnclick(value)">
+                <input class="form-tel formTel" type="text" placeholder="您的手机号" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))">
+                <div onclick="formBtn(2)" class="form-btn flex-box">免费领取方案和试用账号</div>
+            </div>
+            <div class="sec-last">
+                <h2 class="sec-last-tit">搭建直播平台<br>快速开展在线业务</h2>
+                <p class="last-tel"><img src="./img/tel-last-icon.png" alt="">400-668-7896</p>
+                <div class="last-btn" onclick="openPopup()">点击免费体验</div>
+                <p class="company-info">©2010-2020 北京九十六刻科技有限公司 版权所有 京ICP备17020935号</p>
+            </div>
+        </section>
+        <!-- 弹窗 -->
+        <div class="form-popup-bg popupBg" id="popupBg">
+            <div class="form-popup-sec">
+                <img class="close-icon" onclick="closePopup()" src="./img/popup-close-icon.png" alt="关闭">
+                <h2 class="popup-title">在线开通 免费体验</h2>
+                <p class="popup-txt">注册成功即可线上体验产品，创建专属直播课堂，<br>在线直播授课，互动教学</p>
+                <ul class="popup-ul">
+                    <li>1v1辅导</li>
+                    <li>1v16小班课</li>
+                    <li>1v500大班课</li>
+                    <li>万人大直播</li>
+                    <li>双师课堂</li>
+                    <li>空中直播</li>
+                </ul>   
+                <div class="popup-form">
+                    <div class="two-input-box">
+                        <input class="popup-form-input position-input nameInput formName" oninput="namePopupOnclick(value)" type="text" placeholder="您的称呼">
+                    </div>
+                    <div class="two-input-box">
+                        <input class="popup-form-input position-input formTel" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
+                        <span class="form-must popup-must formMustPopup">(必填)</span>
+                    </div>
+                    <span class="form-txt">(您的信息仅用于268网校注册试用，将严格保密)</span>
+                    <div onclick="formBtn(3)" class="popup-form-btn">免费领取方案和试用账号</div>
+                </div>
+            </div>
+
+        </div>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+    <script src="./js/index.js"></script>
+</html>
