@@ -61,8 +61,8 @@
                 </div>
             </div>
             <div class="sec-form">
-                <input class="form-name formName" type="text" placeholder="您的称呼" oninput="namePopupOnclick(value)">
-                <input class="form-tel formTel" type="text" placeholder="您的手机号" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))">
+                <input class="form-name formName" id="userName1" type="text" placeholder="您的称呼" oninput="namePopupOnclick(value)">
+                <input class="form-tel formTel" id="userTel1" type="text" maxlength="11" placeholder="您的手机号" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))">
                 <div onclick="formBtn(1)" class="form-btn flex-box">免费领取方案和试用账号</div>
             </div>
             <div class="sec-four">
@@ -243,8 +243,8 @@
             </div>
             <div class="sec-form">
                 <img class="form-tit-img" src="./img/form-tit-pic.png" alt="">
-                <input class="form-name formName" type="text" placeholder="您的称呼" oninput="namePopupOnclick(value)">
-                <input class="form-tel formTel" type="text" placeholder="您的手机号" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))">
+                <input class="form-name formName" id="userName2" type="text" placeholder="您的称呼" oninput="namePopupOnclick(value)">
+                <input class="form-tel formTel" id="userTel2" type="text" maxlength="11" placeholder="您的手机号" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))">
                 <div onclick="formBtn(2)" class="form-btn flex-box">免费领取方案和试用账号</div>
             </div>
             <div class="sec-last">
@@ -270,10 +270,10 @@
                 </ul>   
                 <div class="popup-form">
                     <div class="two-input-box">
-                        <input class="popup-form-input position-input nameInput formName" oninput="namePopupOnclick(value)" type="text" placeholder="您的称呼">
+                        <input class="popup-form-input position-input nameInput formName" id="userName3" oninput="namePopupOnclick(value)" type="text" placeholder="您的称呼">
                     </div>
                     <div class="two-input-box">
-                        <input class="popup-form-input position-input formTel" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
+                        <input class="popup-form-input position-input formTel" maxlength="11" id="userTel3" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
                         <span class="form-must popup-must formMustPopup">(必填)</span>
                     </div>
                     <span class="form-txt">(您的信息仅用于268网校注册试用，将严格保密)</span>
